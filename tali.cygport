@@ -1,0 +1,14 @@
+inherit gnome2
+
+NAME="tali"
+VERSION=3.8.0
+RELEASE=1
+CATEGORY="Games"
+SUMMARY="GNOME Yatzy game"
+DESCRIPTION="Tali is like poker with dice. The player rolls dice to try to
+make the best possible combinations, like 4 of a kind, small straight, and
+full house. The player is allowed 3 rolls per turn and can hold certain dice
+with each roll."
+OBSOLETES="gtali"
+
+CYGCONF_ARGS="--disable-setgid"
